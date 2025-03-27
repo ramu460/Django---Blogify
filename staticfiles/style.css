@@ -1,0 +1,28 @@
+/* General Styles */
+body {
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Ensures main content pushes footer down */
+main {
+    flex-grow: 1;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: auto;
+    background-color: #343a40; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer {
+        padding: 10px 0;
+    }
+}
